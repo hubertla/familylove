@@ -1,0 +1,16 @@
+
+[{shop_url}] 
+
+Gửi {firstname} {lastname}, 
+
+We have updated the progress on your return #{id_order_return}, the
+new status is: "{state_order_return}"
+
+Ban có thể xem đơn hàng và download hóa đơn từ trang
+"Lịch sử đơn hàng" [{history_url}] trong mục
+tài khoản khách hàng bằng cách chuyển tới trang "Tài
+khoản của tôi" [{my_account_url}]. 
+
+{shop_name} [{shop_url}] dựa trên nền tảng
+PrestaShop(tm) [http://www.prestashop.com/] 
+

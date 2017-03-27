@@ -1,0 +1,24 @@
+
+[{shop_url}] 
+
+Gửi {firstname} {lastname}, 
+
+Chúng tôi nhận thấy rằng trong chuyến thăm cuối cùng
+của bạn trên {shop_name}, bạn đã không hoàn thành đơn
+hàng bạn đã bắt đầu.
+
+Giỏ hàng đã được lưu, bạn có thể tiếp tục mua
+hàng trên cửa hàng của chúng tôi: {shop_url}
+[{shop_url}]
+
+As an incentive, we can give you a discount of {amount}% off your
+next order! This offer is valid for {days} days, so do not waste a
+moment! 		 
+
+PHIẾU GIẢM GIÁ CỦA BẠN: {voucher_num}
+
+Sử dụng mã giảm giá này trong quá trình thành toán. 		 
+
+{shop_name} [{shop_url}] dựa trên nền tảng
+PrestaShop(tm) [http://www.prestashop.com/] 
+

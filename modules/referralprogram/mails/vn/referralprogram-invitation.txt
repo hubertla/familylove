@@ -1,0 +1,21 @@
+
+[{shop_url}] 
+
+{firstname_friend} {lastname_friend}, tham gia với chúng tôi! 
+
+Your friend {firstname} {lastname} wants to refer you on {shop_name}
+[{shop_url}]!
+
+Chúng tôi rất vui được gửi tặng bạn phiếu giảm giá
+trị giá {discount} để sử dụng cho lần đặt hàng sau.
+Giới thiệu và nhận ngay phiếu giảm giá {discount}! It's
+very easy to sign up. Just click here! [{link}] 		 
+
+When signing up, don't forget to provide the e-mail address of your
+referring friend: {email}.
+
+Trân trọng, 
+
+{shop_name} [{shop_url}] dựa trên nền tảng
+PrestaShop(tm) [http://www.prestashop.com/] 
+

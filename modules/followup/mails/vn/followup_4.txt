@@ -1,0 +1,23 @@
+
+[{shop_url}] 
+
+Gửi {firstname} {lastname}, 
+
+You are one of our best customers, however you have not placed an
+order in {days_threshold} days.
+
+Giỏ hàng đã được lưu, bạn có thể tiếp tục mua
+hàng trên cửa hàng của chúng tôi: {shop_url}
+[{shop_url}]
+
+We wish to thank you for the trust you have placed in us and want to
+give you a discount of {amount}% valid on your next order! This offer
+is valid for {days} days, so do not waste a moment! 		 
+
+PHIẾU GIẢM GIÁ CỦA BẠN: {voucher_num}
+
+Sử dụng mã giảm giá này trong quá trình thành toán. 		 
+
+{shop_name} [{shop_url}] dựa trên nền tảng
+PrestaShop(tm) [http://www.prestashop.com/] 
+
