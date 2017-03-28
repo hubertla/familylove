@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-24 10:00:31
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:07:58
          compiled from "/home/familylove/public_html/adminFL/themes/default/template/helpers/list/list_content.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:117008359058d48bcf3414a9-35527836%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:109671124658d90eae56b442-77895328%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '2921a226c200c792cd69c53450665effe56886f6' => 
     array (
       0 => '/home/familylove/public_html/adminFL/themes/default/template/helpers/list/list_content.tpl',
-      1 => 1482131820,
+      1 => 1490614769,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '117008359058d48bcf3414a9-35527836',
+  'nocache_hash' => '109671124658d90eae56b442-77895328',
   'function' => 
   array (
   ),
@@ -48,9 +48,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58d48bcfbc79e9_87830367',
+  'unifunc' => 'content_58d90eaea71b41_57134457',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58d48bcfbc79e9_87830367')) {function content_58d48bcfbc79e9_87830367($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/familylove/public_html/tools/smarty/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_58d90eaea71b41_57134457')) {function content_58d90eaea71b41_57134457($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/familylove/public_html/tools/smarty/plugins/function.counter.php';
 ?>
 <?php $_smarty_tpl->_capture_stack[0][] = array('tr_count', null, null); ob_start(); ?><?php echo smarty_function_counter(array('name'=>'tr_count'),$_smarty_tpl);?>
 <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
@@ -83,13 +83,13 @@ _<?php if (isset($_smarty_tpl->tpl_vars['tr']->value['position']['position'])) {
 						<input type="checkbox" name="<?php echo $_smarty_tpl->tpl_vars['list_id']->value;?>
 Box[]" value="<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
 "<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
-<?php $_tmp2=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp2,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
+<?php $_tmp1=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp1,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
 					<?php }?>
 				<?php } else { ?>
 					<input type="checkbox" name="<?php echo $_smarty_tpl->tpl_vars['list_id']->value;?>
 Box[]" value="<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
 "<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
-<?php $_tmp3=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp3,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
+<?php $_tmp2=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp2,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
 				<?php }?>
 			</td>
 		<?php }?>
@@ -137,6 +137,15 @@ $_smarty_tpl->tpl_vars['params']->_loop = true;
 					<?php if (isset($_smarty_tpl->tpl_vars['params']->value['active'])) {?>
 						<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value];?>
 
+					<?php } elseif (isset($_smarty_tpl->tpl_vars['params']->value['callback'])) {?>
+						<?php if (isset($_smarty_tpl->tpl_vars['params']->value['maxlength'])&&Tools::strlen($_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value])>$_smarty_tpl->tpl_vars['params']->value['maxlength']) {?>
+							<span title="<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value];?>
+"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['truncate'][0][0]->smarty_modifier_truncate($_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value],$_smarty_tpl->tpl_vars['params']->value['maxlength'],'...');?>
+</span>
+						<?php } else { ?>
+							<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value];?>
+
+						<?php }?>
 					<?php } elseif (isset($_smarty_tpl->tpl_vars['params']->value['activeVisu'])) {?>
 						<?php if ($_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value]) {?>
 							<i class="icon-check-ok"></i> <?php echo smartyTranslate(array('s'=>'Enabled'),$_smarty_tpl);?>
@@ -198,15 +207,6 @@ _<?php echo $_smarty_tpl->tpl_vars['tr']->value['id'];?>
 " value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value], ENT_QUOTES, 'UTF-8', true);?>
 " class="<?php echo $_smarty_tpl->tpl_vars['key']->value;?>
 " />
-					<?php } elseif (isset($_smarty_tpl->tpl_vars['params']->value['callback'])) {?>
-						<?php if (isset($_smarty_tpl->tpl_vars['params']->value['maxlength'])&&Tools::strlen($_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value])>$_smarty_tpl->tpl_vars['params']->value['maxlength']) {?>
-							<span title="<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value];?>
-"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['truncate'][0][0]->smarty_modifier_truncate($_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value],$_smarty_tpl->tpl_vars['params']->value['maxlength'],'...');?>
-</span>
-						<?php } else { ?>
-							<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value];?>
-
-						<?php }?>
 					<?php } elseif ($_smarty_tpl->tpl_vars['key']->value=='color') {?>
 						<?php if (!is_array($_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value])) {?>
 						<div style="background-color: <?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value];?>

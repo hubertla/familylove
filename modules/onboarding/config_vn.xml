@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>onboarding</name>
+	<displayName><![CDATA[OnBoarding]]></displayName>
+	<version><![CDATA[1.0.2]]></version>
+	<description><![CDATA[Module OnBoarding ch&agrave;o đ&oacute;n người d&ugrave;ng lần đầu PrestaShop back office của họ: th&ocirc;ng qua một giao diện vui tươi nhỏ, n&oacute; cho thấy người sử dụng như thế n&agrave;o để khởi động / cửa h&agrave;ng của m&igrave;nh trong v&agrave;i bước dễ d&agrave;ng.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
