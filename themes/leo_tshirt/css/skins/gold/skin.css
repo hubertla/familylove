@@ -256,10 +256,10 @@ a:hover, a:focus {
 }
 
 #header-main {
-  background: white;
+  background: #faf7f7;
 }
 #header-main .container > .inner {
-  background: white;
+  background: inherit;
   color: #6d6d6d;
 }
 #header-main .container > .inner a {

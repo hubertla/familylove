@@ -1,31 +1,30 @@
 
 [{shop_url}] 
 
-Gửi {firstname} {lastname},
+Hi {firstname} {lastname},
 
-Cảm ơn bạn đã đăng kí tài khoản tại {shop_name}. 
+Thank you for creating a customer account at {shop_name}. 
 
-Thông tin đăng nhập của bạn:
+Here are your login details:
 
-ĐỊA CHỈ EMAIL: {email}
+E-MAIL ADDRESS: {email}
 
-MẬT KHẨU: {passwd} 		 
+PASSWORD: {passwd} 		 
 
-Mẹo bảo mật:
+Important Security Tips:
 
-* Vui lòng lữu trữ thông tin tài khoản cẩn thận.
+* Always keep your account details safe.
 
-* Đừng bao giờ nói cho người khác biết mật khẩu
-của bạn.
+* Never disclose your login details to anyone.
 
-* Thay đổi mật khẩu thường xuyên.
+* Change your password regularly.
 
-* Nếu phát hiện tài khoản của bạn đã bị đánh
-cắp, vui lòng liên hệ với chúng tôi ngay lập tức.
+* Should you suspect someone is using your account illegally, please
+notify us immediately.
 
-Từ giờ bạn có thể đặt hàng được rồi:
-{shop_name} [{shop_url}] 
+You can now place orders on our shop: {shop_name}
+[{shop_url}] 
 
-{shop_name} [{shop_url}] dựa trên nền tảng
+{shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 
 

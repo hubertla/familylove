@@ -3523,7 +3523,7 @@
   ),
   'Search' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Search.php',
     'type' => 'class',
     'override' => false,
   ),

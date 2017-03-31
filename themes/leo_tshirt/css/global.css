@@ -3777,6 +3777,7 @@ input[type="button"].btn-block {
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
+  border-color: #f6f5f5;
 }
 
 .navbar-fixed-bottom {
@@ -5345,6 +5346,7 @@ button.close {
   position: relative;
   overflow: hidden;
   width: 100%;
+  padding-top: 1%;
 }
 .carousel-inner > .item {
   display: none;
@@ -6617,7 +6619,7 @@ body.layout-boxed-lg #page .container {
   color: #2d84b1;
 }
 #topbar a {
-  font-size: 13px;
+  font-size: 1.2em;
 }
 #topbar .compare-form {
   width: 100px;
@@ -6635,7 +6637,7 @@ body.layout-boxed-lg #page .container {
   color: #2d84b1;
 }
 #topbar .links {
-  margin-top: 3px;
+  margin-top: 5px;
 }
 #topbar .links-outline a {
   color: #2d84b1;
@@ -6702,13 +6704,14 @@ body.layout-boxed-lg #page .container {
 
 #header-main {
   min-height: 60px;
-  background: white;
+  background: #faf7f7;
 }
+
 #header-main .container > .inner {
-  background: white;
+  background: inherit;
   color: #8c8c8c;
-  padding-top: 35px;
-  padding-bottom: 30px;
+  padding-top: 19px;
+  padding-bottom: 13px;
 }
 #header-main .container > .inner a {
   color: #8c8c8c;
@@ -6726,9 +6729,13 @@ body.layout-boxed-lg #page .container {
   min-height: 94px;
   margin: 0;
 }
+
+#header-main.mini-navbar{
+	border-bottom: 2px solid #eee;
+}
 #header-main.mini-navbar .container > .inner {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
 }
 
 #header .show-mobile {

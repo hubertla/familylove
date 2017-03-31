@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:14:08
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-30 07:53:40
          compiled from "/home/familylove/public_html/themes/leo_tshirt/product-item.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:146750438558d91020be3145-91043445%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:142689027158dc57147aa009-89851070%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e00d596336aba3015260da60cac5b8f967622aef' => 
     array (
       0 => '/home/familylove/public_html/themes/leo_tshirt/product-item.tpl',
-      1 => 1490620337,
+      1 => 1490768804,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '146750438558d91020be3145-91043445',
+  'nocache_hash' => '142689027158dc57147aa009-89851070',
   'function' => 
   array (
   ),
@@ -34,18 +34,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58d91020f31192_25732221',
+  'unifunc' => 'content_58dc5714b25b14_89972730',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58d91020f31192_25732221')) {function content_58d91020f31192_25732221($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58dc5714b25b14_89972730')) {function content_58dc5714b25b14_89972730($_smarty_tpl) {?>
 <?php if (!isset($_smarty_tpl->tpl_vars['callFromModule']->value)||$_smarty_tpl->tpl_vars['callFromModule']->value==0) {?>
 <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./layout/setting.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php }?>
 <div class="product-container text-center product-block" itemscope itemtype="https://schema.org/Product">
 	<div class="left-block">
-		<div class="product-image-container image">
-		   <div class="leo-more-info" data-idproduct="<?php echo $_smarty_tpl->tpl_vars['product']->value['id_product'];?>
-"></div>
+		<div class="product-image-container image">	   
 			<a class="product_img_link"	href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['link'], ENT_QUOTES, 'UTF-8', true);?>
 " title="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['name'], ENT_QUOTES, 'UTF-8', true);?>
 " itemprop="url">
@@ -58,6 +56,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<span class="product-additional" data-idproduct="<?php echo $_smarty_tpl->tpl_vars['product']->value['id_product'];?>
 "></span>
 			</a>
+			<!-- for thumbnails -->
+			<div class="leo-more-info" data-idproduct="<?php echo $_smarty_tpl->tpl_vars['product']->value['id_product'];?>
+"></div>
 			<?php if (isset($_smarty_tpl->tpl_vars['quick_view']->value)&&$_smarty_tpl->tpl_vars['quick_view']->value) {?>
 				<a class="quick-view btn-outline-inverse btn" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['link'], ENT_QUOTES, 'UTF-8', true);?>
 " data-link="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['link'], ENT_QUOTES, 'UTF-8', true);?>

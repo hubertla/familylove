@@ -1,16 +1,15 @@
 
 [{shop_url}] 
 
-Gửi {firstname} {lastname}, 
+Hi {firstname} {lastname}, 
 
 {reply} 
 
-Xin đừng trả lời trực tiếp tới email này, chúng tôi
-sẽ không nhận được nó. 
+Please do not reply directly to this email, we will not receive it. 
 
-Để gửi phản hồi, xin hãy vào đường dẫn: {link}
+In order to reply, please use the following link: {link}
 [{link}] 
 
-{shop_name} [{shop_url}] dựa trên nền tảng
+{shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 
 

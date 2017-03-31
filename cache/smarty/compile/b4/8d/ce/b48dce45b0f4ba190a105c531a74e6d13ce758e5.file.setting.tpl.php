@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:31:06
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-30 07:53:40
          compiled from "/home/familylove/public_html/themes/leo_tshirt/layout/setting.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:66599380458d91020f3bc51-67418970%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:60877053658dc5714b6a143-13883487%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'b48dce45b0f4ba190a105c531a74e6d13ce758e5' => 
     array (
       0 => '/home/familylove/public_html/themes/leo_tshirt/layout/setting.tpl',
-      1 => 1490621334,
+      1 => 1490684221,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '66599380458d91020f3bc51-67418970',
+  'nocache_hash' => '60877053658dc5714b6a143-13883487',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58d91021053ba1_08502045',
   'variables' => 
   array (
     'LISTING_PRODUCT_COLUMN' => 0,
@@ -24,8 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'LISTING_PRODUCT_TABLET' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_58dc5714c24488_49696679',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58d91021053ba1_08502045')) {function content_58d91021053ba1_08502045($_smarty_tpl) {?><?php $_smarty_tpl->tpl_vars["ENABLE_RESPONSIVE"] = new Smarty_variable("1", null, 3);
+<?php if ($_valid && !is_callable('content_58dc5714c24488_49696679')) {function content_58dc5714c24488_49696679($_smarty_tpl) {?><?php $_smarty_tpl->tpl_vars["ENABLE_RESPONSIVE"] = new Smarty_variable("1", null, 3);
 $_ptr = $_smarty_tpl->parent; while ($_ptr != null) {$_ptr->tpl_vars["ENABLE_RESPONSIVE"] = clone $_smarty_tpl->tpl_vars["ENABLE_RESPONSIVE"]; $_ptr = $_ptr->parent; }
 Smarty::$global_tpl_vars["ENABLE_RESPONSIVE"] = clone $_smarty_tpl->tpl_vars["ENABLE_RESPONSIVE"];?><?php $_smarty_tpl->tpl_vars["LISTING_GRIG_MODE"] = new Smarty_variable("grid", null, 3);
 $_ptr = $_smarty_tpl->parent; while ($_ptr != null) {$_ptr->tpl_vars["LISTING_GRIG_MODE"] = clone $_smarty_tpl->tpl_vars["LISTING_GRIG_MODE"]; $_ptr = $_ptr->parent; }

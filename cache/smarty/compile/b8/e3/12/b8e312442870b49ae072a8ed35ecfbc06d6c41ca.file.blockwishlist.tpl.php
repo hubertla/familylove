@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:14:35
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-30 04:08:55
          compiled from "/home/familylove/public_html/themes/leo_tshirt/modules/blockwishlist/blockwishlist.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:131061782758d9103b278285-21312148%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:66410456958dc2267b6a3e3-23865838%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '131061782758d9103b278285-21312148',
+  'nocache_hash' => '66410456958dc2267b6a3e3-23865838',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58d9103b377ef6_62401498',
+  'unifunc' => 'content_58dc2267d2f679_26152444',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58d9103b377ef6_62401498')) {function content_58d9103b377ef6_62401498($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58dc2267d2f679_26152444')) {function content_58dc2267d2f679_26152444($_smarty_tpl) {?>
 <div id="wishlist_block" class="block account">
 	<h4 class="title_block">
 		<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getModuleLink('blockwishlist','mywishlist',array(),true), ENT_QUOTES, 'UTF-8', true);?>

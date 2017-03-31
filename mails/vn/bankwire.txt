@@ -1,36 +1,34 @@
 
 [{shop_url}] 
 
-Gửi {firstname} {lastname},
+Hi {firstname} {lastname},
 
-Cảm ơn bạn đã mua hàng tại {shop_name}! 
+Thank you for shopping with {shop_name}! 
 
-Đơn đặt hàng của bạn với mã {order_name} đã
-được đặt thành công và hàng sẽ được CHUYỂN NGAY SAU
-KHI THANH TOÁN. 
+Your order with the reference {order_name} has been placed
+successfully and will be SHIPPED AS SOON AS WE RECEIVE YOUR PAYMENT. 
 
-Bạn đã lựa chọn thanh toán bằng phương thức chuyển
-khoản. 
+You have selected to pay by wire transfer. 
 
-Thông tin tài khoản ngân hàng để chuyển khoản:
+Here are the bank details for your transfer:
 
-SỐ TIỀN: {total_paid}
+AMOUNT: {total_paid}
 
-CHỦ TÀI KHOẢN: {bankwire_owner}
+ACCOUNT OWNER: {bankwire_owner}
 
-SỐ TÀI KHOẢN: {bankwire_details}
+ACCOUNT DETAILS: {bankwire_details}
 
-ĐỊA CHỈ NGÂN HÀNG: {bankwire_address} 		 
+BANK ADDRESS: {bankwire_address} 		 
 
-Ban có thể xem đơn hàng và download hóa đơn từ trang
-"Lịch sử đơn hàng" [{history_url}] trong mục
-tài khoản khách hàng bằng cách chuyển tới trang "Tài
-khoản của tôi" [{my_account_url}]. 
+You can review your order and download your invoice from the
+"Order history" [{history_url}] section of your
+customer account by clicking "My account"
+[{my_account_url}] on our shop. 
 
-Nếu bạn có tài khoản khách vãng lai, bạn có thể tra
-cứu đơn hàng của bạn thông qua mục "Guest Tracking"
-[{guest_tracking_url}] trên trang web. 
+If you have a guest account, you can follow your order via the
+"Guest Tracking" [{guest_tracking_url}] section on
+our shop. 
 
-{shop_name} [{shop_url}] dựa trên nền tảng
+{shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 
 

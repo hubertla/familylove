@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:14:08
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-30 07:53:40
          compiled from "/home/familylove/public_html/themes/leo_tshirt/modules/leomanagewidgets/views/widgets/products.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:40183222158d91020b5a6c0-26452807%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:35802943058dc57146c5f62-46563873%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '40183222158d91020b5a6c0-26452807',
+  'nocache_hash' => '35802943058dc57146c5f62-46563873',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58d91020bdbb61_13136088',
+  'unifunc' => 'content_58dc57147a0b45_31347558',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58d91020bdbb61_13136088')) {function content_58d91020bdbb61_13136088($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58dc57147a0b45_31347558')) {function content_58dc57147a0b45_31347558($_smarty_tpl) {?>
 
 <?php if (!empty($_smarty_tpl->tpl_vars['products']->value)) {?>
 <div class="carousel slide carousel-fade" id="<?php echo $_smarty_tpl->tpl_vars['tabname']->value;?>

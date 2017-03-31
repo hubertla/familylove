@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:14:08
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-30 07:53:40
          compiled from "/home/familylove/public_html/themes/leo_tshirt/product-list-colors.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:125530694658d910209c14e1-90636647%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:167169678458dc571435a5b5-09054847%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '125530694658d910209c14e1-90636647',
+  'nocache_hash' => '167169678458dc571435a5b5-09054847',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58d91020a88b08_99265005',
+  'unifunc' => 'content_58dc5714462e59_33976782',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58d91020a88b08_99265005')) {function content_58d91020a88b08_99265005($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58dc5714462e59_33976782')) {function content_58dc5714462e59_33976782($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['colors_list']->value)) {?>
 <ul class="color_to_pick_list clearfix">
 	<?php  $_smarty_tpl->tpl_vars['color'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['color']->_loop = false;

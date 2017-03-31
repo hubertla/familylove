@@ -21,7 +21,7 @@
  */
 #search_block_top {
   padding: 0;
-  padding: 5px 0;
+  /*  padding: 5px 0; 	no padding*/
 }
 
 .ac_results {
@@ -50,6 +50,8 @@ form#searchbox {
   text-align: center;
   width: 250px;
   float: right;
+  padding-top: 0; /*no padding*/
+  padding-botton: 0; /*no padding bottom*/
 }
 .rtl form#searchbox {
   float: left;
@@ -65,12 +67,12 @@ form#searchbox input#search_query_block {
   float: left;
 }
 form#searchbox input#search_query_top {
-  border-left: 1px solid #ccc;
+  /* border-left: 1px solid #ccc; no border*/
   border-right: none;
   border-top: none;
   border-bottom: none;
   box-shadow: none;
-  height: 30px;
+  max-height: 27px;
 }
 form#searchbox .button.button-small {
   float: left;
@@ -80,7 +82,7 @@ form#searchbox .button.button-small i {
 }
 form#searchbox .btn {
   padding: 4px 10px;
-  background: white;
+  background: inherit;
   color: #ccc;
   border: none;
 }

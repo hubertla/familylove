@@ -300,7 +300,7 @@
 }
 
 .blockcart_top {
-  line-height: 75px;
+/*  line-height: 75px;  comment to minimize the block cart on header*/
 }
 
 .cart_block #cart_block_summary,

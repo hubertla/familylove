@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:14:07
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-30 07:53:40
          compiled from "/home/familylove/public_html/modules/leomanagewidgets/views/widgets/group.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:210798027858d9101ff2f587-57418631%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:191235030958dc5714e8c474-21697433%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '210798027858d9101ff2f587-57418631',
+  'nocache_hash' => '191235030958dc5714e8c474-21697433',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58d910200aa446_41095511',
+  'unifunc' => 'content_58dc5715011399_78447524',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58d910200aa446_41095511')) {function content_58d910200aa446_41095511($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58dc5715011399_78447524')) {function content_58dc5715011399_78447524($_smarty_tpl) {?>
 
 <?php if (isset($_smarty_tpl->tpl_vars['leoGroup']->value)&&$_smarty_tpl->tpl_vars['leoGroup']->value) {?>
     <?php  $_smarty_tpl->tpl_vars['group'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['group']->_loop = false;

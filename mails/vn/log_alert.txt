@@ -1,13 +1,13 @@
 
 [{shop_url}] 
 
-Gửi {firstname} {lastname}, 
+Hi {firstname} {lastname}, 
 
-CẢNH BÁO:Có cảnh báo mới được ghi nhận, vui lòng
-kiểm tra trang quản trị.
+WARNING: you have received a new log alert in your Back Office.
 
-Kiểm tra tại "CÔNG CỤ" > "LOGS" trong trang quản trị. 		 
+You can check for it in the "TOOLS" > "LOGS" section of your Back
+Office. 		 
 
-{shop_name} [{shop_url}] dựa trên nền tảng
+{shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 
 

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:14:10
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-30 07:53:42
          compiled from "/home/familylove/public_html/themes/leo_tshirt/layout/default/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:180618370558d910223df552-32520402%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:133094519858dc5716428904-26446424%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '180618370558d910223df552-32520402',
+  'nocache_hash' => '133094519858dc5716428904-26446424',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58d910224245d8_51061258',
+  'unifunc' => 'content_58dc5716452665_67004798',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58d910224245d8_51061258')) {function content_58d910224245d8_51061258($_smarty_tpl) {?>		<?php if ($_smarty_tpl->tpl_vars['HOOK_CONTENTBOTTOM']->value&&in_array($_smarty_tpl->tpl_vars['page_name']->value,array('index'))) {?>
+<?php if ($_valid && !is_callable('content_58dc5716452665_67004798')) {function content_58dc5716452665_67004798($_smarty_tpl) {?>		<?php if ($_smarty_tpl->tpl_vars['HOOK_CONTENTBOTTOM']->value&&in_array($_smarty_tpl->tpl_vars['page_name']->value,array('index'))) {?>
 			<div id="contentbottom" class="no-border clearfix block">
 				<?php echo $_smarty_tpl->tpl_vars['HOOK_CONTENTBOTTOM']->value;?>
 

@@ -1,21 +1,20 @@
 
 [{shop_url}] 
 
-Tin nhắn của bạn tới Dịch Vụ khách hàng của
-{shop_name} 
+Your message to {shop_name} Customer Service 
 
-Tin nhắn của bạn đã được gửi thành công.
+Your message has been sent successfully.
 
-NỘI DUNG: {message}
+MESSAGE: {message}
 
-MÃ ĐẶT HÀNG: {order_name}
+ORDER ID: {order_name}
 
-SẢN PHẨM: {product_name}
+PRODUCT: {product_name}
 
-TỆP ĐÍNH KÈM: {attached_file} 		 
+ATTACHED FILE: {attached_file} 		 
 
-Chúng tôi sẽ trả lời sớm nhất có thể. 
+We will answer as soon as possible. 
 
-{shop_name} [{shop_url}] dựa trên nền tảng
+{shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 
 

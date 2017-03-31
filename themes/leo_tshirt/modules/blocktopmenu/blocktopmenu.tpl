@@ -12,7 +12,7 @@
 						<input type="hidden" name="controller" value="search" />
 						<input type="hidden" value="position" name="orderby"/>
 						<input type="hidden" value="desc" name="orderway"/>
-							<input type="text" name="search_query" value="{if isset($smarty.get.search_query)}{$smarty.get.search_query|escape:'html':'UTF-8'}{/if}" />
+							<input type="text" name="search_query" placeholder="Tìm kiếm nhanh" value="{if isset($smarty.get.search_query)}{$smarty.get.search_query|escape:'html':'UTF-8'}{/if}" />
 					</p>
 					<span>
 						<button class="btn btn-outline-inverse" name="submit_search" type="submit">

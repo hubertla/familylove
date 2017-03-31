@@ -8,12 +8,13 @@
 {/if}
 <div class="product-container text-center product-block" itemscope itemtype="https://schema.org/Product">
 	<div class="left-block">
-		<div class="product-image-container image">
-		   <div class="leo-more-info" data-idproduct="{$product.id_product}"></div>
+		<div class="product-image-container image">	   
 			<a class="product_img_link"	href="{$product.link|escape:'html':'UTF-8'}" title="{$product.name|escape:'html':'UTF-8'}" itemprop="url">
 				<img class="replace-2x img-responsive" src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'home_default')|escape:'html':'UTF-8'}" alt="{if !empty($product.legend)}{$product.legend|escape:'html':'UTF-8'}{else}{$product.name|escape:'html':'UTF-8'}{/if}" title="{if !empty($product.legend)}{$product.legend|escape:'html':'UTF-8'}{else}{$product.name|escape:'html':'UTF-8'}{/if}" itemprop="image" />
 				<span class="product-additional" data-idproduct="{$product.id_product}"></span>
 			</a>
+			<!-- for thumbnails -->
+			<div class="leo-more-info" data-idproduct="{$product.id_product}"></div>
 			{if isset($quick_view) && $quick_view}
 				<a class="quick-view btn-outline-inverse btn" href="{$product.link|escape:'html':'UTF-8'}" data-link="{$product.link|escape:'html':'UTF-8'}">
 					<i class="fa fa-eye"></i>

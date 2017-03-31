@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:30:19
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-29 14:07:12
          compiled from "/home/familylove/public_html/modules/leomanagewidgets/views/templates/admin/_configure//helpers/form/leo_form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:115490683758d913eba17ac4-64636873%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:212158471758db5d2023c182-48360306%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -29,7 +29,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '115490683758d913eba17ac4-64636873',
+  'nocache_hash' => '212158471758db5d2023c182-48360306',
   'function' => 
   array (
   ),
@@ -85,9 +85,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58d913ed8783c0_47861039',
+  'unifunc' => 'content_58db5d221d6167_70894011',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58d913ed8783c0_47861039')) {function content_58d913ed8783c0_47861039($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/familylove/public_html/tools/smarty/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_58db5d221d6167_70894011')) {function content_58db5d221d6167_70894011($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/familylove/public_html/tools/smarty/plugins/function.counter.php';
 if (!is_callable('smarty_modifier_replace')) include '/home/familylove/public_html/tools/smarty/plugins/modifier.replace.php';
 if (!is_callable('smarty_function_math')) include '/home/familylove/public_html/tools/smarty/plugins/function.math.php';
 ?>
@@ -449,8 +449,8 @@ $_smarty_tpl->tpl_vars['itemGroup']->_loop = true;
 ?>
                                         <?php /*  Call merged included template "./form_grouplist.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('./form_grouplist.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('type'=>"1",'hook_name'=>$_smarty_tpl->tpl_vars['input']->value['name'],'item_group'=>$_smarty_tpl->tpl_vars['itemGroup']->value), 0, '115490683758d913eba17ac4-64636873');
-content_58d913ecdefbf5_94210121($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('./form_grouplist.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('type'=>"1",'hook_name'=>$_smarty_tpl->tpl_vars['input']->value['name'],'item_group'=>$_smarty_tpl->tpl_vars['itemGroup']->value), 0, '212158471758db5d2023c182-48360306');
+content_58db5d2170b222_00089875($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "./form_grouplist.tpl" */?>
                                     <?php } ?>
@@ -2348,8 +2348,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 									<?php $_smarty_tpl->tpl_vars['groups'] = new Smarty_variable($_smarty_tpl->tpl_vars['input']->value['values'], null, 0);?>
 									<?php /*  Call merged included template "helpers/form/form_group.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '115490683758d913eba17ac4-64636873');
-content_58d913ecaeb7e6_22530593($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '212158471758db5d2023c182-48360306');
+content_58db5d21403119_80238726($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "helpers/form/form_group.tpl" */?>
 								<?php } elseif ($_smarty_tpl->tpl_vars['input']->value['type']=='shop') {?>
@@ -2727,9 +2727,9 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 	</script>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:30:20
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-29 14:07:13
          compiled from "/home/familylove/public_html/adminFL/themes/default/template/helpers/form/form_group.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_58d913ecaeb7e6_22530593')) {function content_58d913ecaeb7e6_22530593($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58db5d21403119_80238726')) {function content_58db5d21403119_80238726($_smarty_tpl) {?>
 
 <?php if (count($_smarty_tpl->tpl_vars['groups']->value)&&isset($_smarty_tpl->tpl_vars['groups']->value)) {?>
 <div class="row">
@@ -2786,9 +2786,9 @@ $_smarty_tpl->tpl_vars['group']->_loop = true;
 
 </p>
 <?php }?><?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:30:20
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-29 14:07:13
          compiled from "/home/familylove/public_html/modules/leomanagewidgets/views/templates/admin/_configure/helpers/form/form_grouplist.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_58d913ecdefbf5_94210121')) {function content_58d913ecdefbf5_94210121($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/home/familylove/public_html/tools/smarty/plugins/modifier.replace.php';
+<?php if ($_valid && !is_callable('content_58db5d2170b222_00089875')) {function content_58db5d2170b222_00089875($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/home/familylove/public_html/tools/smarty/plugins/modifier.replace.php';
 if (!is_callable('smarty_function_math')) include '/home/familylove/public_html/tools/smarty/plugins/function.math.php';
 ?>
 

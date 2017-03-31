@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-27 09:14:10
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-30 07:53:42
          compiled from "/home/familylove/public_html/themes/leo_tshirt/layout/default/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:80984603458d91022253df4-88235751%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:117800171258dc57162b9644-09941881%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '80984603458d91022253df4-88235751',
+  'nocache_hash' => '117800171258dc57162b9644-09941881',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58d910222cdbe7_82375643',
+  'unifunc' => 'content_58dc571636f393_88117780',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58d910222cdbe7_82375643')) {function content_58d910222cdbe7_82375643($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['left_column_size']->value)&&!empty($_smarty_tpl->tpl_vars['left_column_size']->value)) {?>
+<?php if ($_valid && !is_callable('content_58dc571636f393_88117780')) {function content_58dc571636f393_88117780($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['left_column_size']->value)&&!empty($_smarty_tpl->tpl_vars['left_column_size']->value)) {?>
 <!-- Left -->
 <section id="left_column" class="column sidebar col-md-<?php echo intval($_smarty_tpl->tpl_vars['left_column_size']->value);?>
 " role="navigation">

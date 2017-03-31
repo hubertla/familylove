@@ -1,13 +1,12 @@
 
 [{shop_url}] 
 
-Xin chào 
+Hello 
 
-Đây là một EMAIL gửi từ cửa hàng của bạn.
+This is a TEST E-MAIL from your shop.
 
-Nếu bạn có thể đọc, tức là hệ thống email đã
-hoạt động!. 
+If you can read this, the test was successful!. 
 
-{shop_name} [{shop_url}] dựa trên nền tảng
+{shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 
 

@@ -111,9 +111,9 @@
 }
 .sf-menu > li > a {
   display: block;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 1.3em;
   color: white;
   background-color: transparent!important;
   font-weight: normal;
@@ -350,7 +350,7 @@ ul.sf-menu li li li.sfHover ul {
 
 #block_top_menu {
   width: 100%;
-  border: 1px dotted #222;
+/*  border: 1px dotted #222;  no border*/
   border-right: none;
   border-left: none;
   padding-top: 6px;
@@ -359,6 +359,7 @@ ul.sf-menu li li li.sfHover ul {
   width: 20%;
   float: right;
   margin-top: 7px;
+  font-size: 1.15em;
 }
 .rtl #block_top_menu .sf-search {
   float: left;
@@ -369,10 +370,11 @@ ul.sf-menu li li li.sfHover ul {
 }
 #block_top_menu .sf-search p input[type="text"] {
   width: 200px;
-  border-left: 1px solid #cccccc !important;
-  border: none;
+  border: 1px solid #e3e3e3 !important;
+  border-radius: 4px;
   padding-left: 10px;
   padding-left: 10px;
+  background: inherit;
 }
 .rtl #block_top_menu .sf-search p input[type="text"] {
   border-right: 1px solid #cccccc !important;

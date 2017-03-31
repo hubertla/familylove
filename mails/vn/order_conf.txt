@@ -1,45 +1,45 @@
 
 [{shop_url}] 
 
-Gửi {firstname} {lastname},
+Hi {firstname} {lastname},
 
-Cảm ơn bạn đã mua hàng tại {shop_name}! 
+Thank you for shopping with {shop_name}! 
 
-ĐƠN HÀNG: {order_name} Khởi tạo ngày {date}
+ORDER: {order_name} Placed on {date}
 
-PHƯƠNG THỨC THANH TOÁN: {payment} 		 
+PAYMENT: {payment} 		 
 
-MẪU
+REFERENCE
 
-SẢN PHẨM
+PRODUCT
 
-ĐƠN GIÁ
+UNIT PRICE
 
-SỐ LƯỢNG
+QUANTITY
 
-TỔNG GIÁ
+TOTAL PRICE
 
 {products_txt} 
 
 {discounts} 
 
-SẢN PHẨM 
+PRODUCTS 
 
 {total_products} 
 
-GIẢM GIÁ 
+DISCOUNTS 
 
 {total_discounts} 
 
-GÓI QUÀ 
+GIFT-WRAPPING 
 
 {total_wrapping} 
 
-VẬN CHUYỂN 
+SHIPPING 
 
 {total_shipping} 
 
-TỔNG THUẾ ĐÃ THANH TOÁN 
+TOTAL TAX PAID 
 
 {total_tax_paid} 
 
@@ -47,24 +47,24 @@ TOTAL PAID
 
 {total_paid} 
 
-CÔNG TY VẬN CHUYỂN {carrier}
+CARRIER: {carrier}
 
-PHƯƠNG THỨC THANH TOÁN: {payment} 		 
+PAYMENT: {payment} 		 
 
 {delivery_block_txt} 
 
 {invoice_block_txt} 
 
-Ban có thể xem đơn hàng và download hóa đơn từ trang
-"Lịch sử đơn hàng" [{history_url}] trong mục
-tài khoản khách hàng bằng cách chuyển tới trang "Tài
-khoản của tôi" [{my_account_url}]. 
+You can review your order and download your invoice from the
+"Order history" [{history_url}] section of your
+customer account by clicking "My account"
+[{my_account_url}] on our shop. 
 
-Nếu bạn sở hữu tài khoản vãng lai, bạn có thể
-làm theo đơn đặt hàng của bạn thông qua phần "Theo dõi
-đơn hàng"
-[{guest_tracking_url}?id_order={order_name}]. 
+If you have a guest account, you can follow your order via the
+"Guest Tracking"
+[{guest_tracking_url}?id_order={order_name}] section
+on our shop. 
 
-{shop_name} [{shop_url}] dựa trên nền tảng
+{shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 
 
