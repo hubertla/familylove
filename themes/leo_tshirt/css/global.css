@@ -87,7 +87,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  */
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  font-family: "ProximaNovaRegular", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -319,13 +319,13 @@ th {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 16px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-family: "ProximaNovaRegular", sans-serif;
+  font-size: 16px;
   line-height: 1.42857;
   color: #9c9c9c;
   background-color: white;
@@ -470,27 +470,27 @@ h6 .small, .h6 small,
 }
 
 h1, .h1 {
-  font-size: 36px;
+  font-size: 2.4em;
 }
 
 h2, .h2 {
-  font-size: 30px;
+  font-size: 2em;
 }
 
 h3, .h3 {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 h4, .h4 {
-  font-size: 18px;
+  font-size: 1.2em;
 }
 
 h5, .h5 {
-  font-size: 14px;
+  font-size: 1em;
 }
 
 h6, .h6 {
-  font-size: 12px;
+  font-size: 0.8em;
 }
 
 p {
@@ -499,13 +499,13 @@ p {
 
 .lead {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 1.15em;
   font-weight: 200;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 1.4em;
   }
 }
 
@@ -795,7 +795,7 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: .9em;
   line-height: 1.42857;
   word-break: break-all;
   word-wrap: break-word;
@@ -2299,7 +2299,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 1.5em;
   line-height: inherit;
   color: #333333;
   border: 0;
@@ -2351,7 +2351,7 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 1.42857;
   color: #9c9c9c;
 }
@@ -2361,7 +2361,7 @@ output {
   width: 100%;
   height: 40px;
   padding: 9px 12px;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 1.42857;
   color: #9c9c9c;
   background-color: white;
@@ -2492,7 +2492,7 @@ input[type="checkbox"],
 .input-group-sm > .input-group-btn > .btn {
   height: 30px;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 0.85em;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -2519,7 +2519,7 @@ select[multiple].input-sm,
 .input-group-lg > .input-group-btn > .btn {
   height: 46px;
   padding: 10px 17px;
-  font-size: 18px;
+  font-size: 1.3em;
   line-height: 1.33;
   border-radius: 6px;
 }
@@ -2736,7 +2736,7 @@ select[multiple].input-lg,
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 9px 12px;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 1.42857;
   border-radius: 0px;
   -webkit-user-select: none;
@@ -2974,21 +2974,21 @@ select[multiple].input-lg,
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 17px;
-  font-size: 18px;
+  font-size: 1.3em;
   line-height: 1.33;
   border-radius: 6px;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 0.85em;
   line-height: 1.5;
   border-radius: 3px;
 }
 
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
-  font-size: 12px;
+  font-size: 0.85em;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -3064,7 +3064,7 @@ input[type="button"].btn-block {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 14px;
+  font-size: 1em;
   background-color: white;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -3138,7 +3138,7 @@ input[type="button"].btn-block {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 12px;
+  font-size: .85em;
   line-height: 1.42857;
   color: #999999;
 }
@@ -3417,7 +3417,7 @@ input[type="button"].btn-block {
 
 .input-group-addon {
   padding: 9px 12px;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   line-height: 1;
   color: #9c9c9c;
@@ -3430,14 +3430,14 @@ input[type="button"].btn-block {
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .input-group-addon.btn {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: .85em;
   border-radius: 3px;
 }
 .input-group-addon.input-lg,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .input-group-addon.btn {
   padding: 10px 17px;
-  font-size: 18px;
+  font-size: 1.3em;
   border-radius: 6px;
 }
 .input-group-addon input[type="radio"],
@@ -3789,7 +3789,7 @@ input[type="button"].btn-block {
 .navbar-brand {
   float: left;
   padding: 15px 10px;
-  font-size: 18px;
+  font-size: 1.3em;
   line-height: 20px;
   height: 50px;
 }
@@ -4187,7 +4187,7 @@ input[type="button"].btn-block {
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 10px 17px;
-  font-size: 18px;
+  font-size: 1.3em;
 }
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
@@ -4203,7 +4203,7 @@ input[type="button"].btn-block {
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: .85em;
 }
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
@@ -4333,7 +4333,7 @@ input[type="button"].btn-block {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 12px;
+  font-size: .85em;
   font-weight: bold;
   color: white;
   line-height: 1;
@@ -4514,7 +4514,7 @@ a.thumbnail.active {
   float: left;
   width: 0%;
   height: 100%;
-  font-size: 12px;
+  font-size: .85em;
   line-height: 20px;
   color: white;
   text-align: center;
@@ -4790,7 +4790,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 1.15em;
   color: inherit;
 }
 .panel-title > a {
@@ -5087,7 +5087,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 
 .close {
   float: right;
-  font-size: 21px;
+  font-size: 1.5em;
   font-weight: bold;
   line-height: 1;
   color: black;
@@ -5116,7 +5116,7 @@ button.close {
   z-index: 1030;
   display: block;
   visibility: visible;
-  font-size: 12px;
+  font-size: .85em;
   line-height: 1.4;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -5247,7 +5247,7 @@ button.close {
 .popover-title {
   margin: 0;
   padding: 8px 14px;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   line-height: 18px;
   background-color: #f7f7f7;
@@ -5400,7 +5400,7 @@ button.close {
   width: 40px;
   opacity: 1;
   filter: alpha(opacity=100);
-  font-size: 20px;
+  font-size: 1.4em;
   color: white;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
@@ -5513,7 +5513,7 @@ button.close {
     height: 30px;
     margin-top: -15px;
     margin-left: -15px;
-    font-size: 30px;
+    font-size: 2.15em;
   }
 
   .carousel-caption {
@@ -5728,7 +5728,7 @@ html {
 body {
   background-color: white;
   color: #9c9c9c;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0px;
   padding: 0px;
 }
@@ -5792,7 +5792,7 @@ ul.inline li {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: .85em;
 }
 .tree-menu > ul > li {
   width: 100%;
@@ -5819,7 +5819,7 @@ ul.inline li {
 .tree-menu > ul > li > a {
   display: block;
   color: #434a54;
-  font-size: 14px;
+  font-size: 1em;
   padding: 10px 0;
   border-bottom: 1px solid #e0e0e0;
 }
@@ -5888,7 +5888,7 @@ ul.inline li {
 .nav-pills > li a {
   padding: 7px 20px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 1em;
 }
 .nav-pills > li a:hover {
   background-color: transparent;
@@ -5909,7 +5909,7 @@ ul.inline li {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   padding: 15px 40px;
-  font-size: 16px;
+  font-size: 1.15em;
   letter-spacing: 1px;
   background: #2d84b1;
   border-top-right-radius: -1px;
@@ -6081,7 +6081,7 @@ ul.inline li {
   z-index: 10;
   top: -60px;
   background: none;
-  font-size: 25px;
+  font-size: 1.8em;
   color: #858585;
 }
 .block_content .carousel-control:hover {
@@ -6096,17 +6096,17 @@ ul.inline li {
 
 /* block inline style */
 .block-inline .icon {
-  font-size: 35px;
+  font-size: 2.5em;
 }
 .block-inline .explain {
-  font-size: 11px;
+  font-size: .8em;
 }
 .block-inline .block_content {
   color: white;
   position: relative;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 1.15em;
 }
 .block-inline .input-group {
   width: 98%;
@@ -6123,7 +6123,7 @@ ul.inline li {
   margin: 0 auto;
 }
 .sidebar .block_content.blockstore .link_store {
-  font-size: 13px;
+  font-size: .9em;
 }
 .sidebar .block_content.blockstore .link_store span {
   text-align: right;
@@ -6168,7 +6168,7 @@ li:first-child .sidebar .product-block {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1.15em;
   margin-top: 0;
   color: #535353;
   padding: 13px 18px 13px;
@@ -6227,7 +6227,7 @@ li:first-child .sidebar .product-block {
   background: none;
   color: #2d84b1;
   padding-left: 0;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: bold;
   padding-right: 20px;
 }
@@ -6250,14 +6250,14 @@ li:first-child .sidebar .product-block {
 
 .price {
   color: #2d84b1;
-  font-size: 16px;
+  font-size: 1.15em;
   font-family: "Raleway", sans-serif;
 }
 
 .price-old, .old-price {
   color: #888888;
   text-decoration: line-through;
-  font-size: 13px;
+  font-size: .9em;
 }
 
 .price-percent-reduction {
@@ -6344,7 +6344,7 @@ li:first-child .sidebar .product-block {
 }
 .product-block .product-rating, .product-block .norating {
   min-height: 25px;
-  font-size: 12px;
+  font-size: .85em;
   margin-bottom: 20px;
 }
 .product-block .name {
@@ -6356,7 +6356,7 @@ li:first-child .sidebar .product-block {
 }
 .product-block .name a {
   color: #434a54;
-  font-size: 13px;
+  font-size: .9em;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   display: -moz-inline-stack;
@@ -6436,7 +6436,7 @@ li:first-child .sidebar .product-block {
 .product-block .product-zoom, .product-block .pav-colorbox {
   width: 30px;
   height: 30px;
-  font-size: 13px;
+  font-size: .9em;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
@@ -6497,12 +6497,12 @@ li:first-child .sidebar .product-block {
 }
 
 .availability .out-of-stock {
-  font-size: 11px;
+  font-size: .8em;
   background: #5bc0de;
   color: white;
 }
 .availability .available-now {
-  font-size: 11px;
+  font-size: .8em;
   background: #f0ad4e;
   color: white;
 }
@@ -6532,7 +6532,7 @@ li:first-child .sidebar .product-block {
 
 .product-label {
   color: white;
-  font-size: 12px;
+  font-size: .85em;
   font-weight: 600;
   text-align: center;
   display: block;
@@ -6549,7 +6549,7 @@ li:first-child .sidebar .product-block {
 .ajax_add_to_cart_button {
   background: #434a54;
   color: white;
-  font-size: 14px;
+  font-size: 1em;
   font-family: "Raleway", sans-serif;
   border: 1px solid #2d84b1;
 }
@@ -6604,7 +6604,7 @@ body.layout-boxed-lg #page .container {
   min-height: 40px;
   font-weight: 300;
   border-bottom: 1px solid #f6f5f5;
-  font-size: 13px;
+  font-size: .9em;
   background: #f6f5f5;
 }
 #topbar .container > .inner {
@@ -6768,7 +6768,7 @@ body.layout-boxed-lg #page .container {
 }
 #header .show-mobile .quickaccess-toggle .fa {
   margin: 0;
-  font-size: 14px;
+  font-size: 1em;
 }
 #header .show-mobile .quickaccess-toggle:hover, #header .show-mobile .quickaccess-toggle:focus, #header .show-mobile .quickaccess-toggle:active {
   background-color: white;
@@ -6795,7 +6795,7 @@ body.layout-boxed-lg #page .container {
   display: block;
   background: rgba(0, 0, 0, 0.5);
   top: 40%;
-  font-size: 60px;
+  font-size: 4.3em;
   width: 35px;
   height: 65px;
   opacity: 0.8;
@@ -6833,7 +6833,7 @@ body.layout-boxed-lg #page .container {
 }
 #top_column .carousel-inner .caption p {
   color: #222;
-  font-size: 55px;
+  font-size: 3.9em;
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
@@ -6927,7 +6927,7 @@ body.layout-boxed-lg #page .container {
   background: white;
   min-height: 100px;
   color: #aab2bd;
-  font-size: 14px;
+  font-size: 1em;
   position: relative;
 }
 #footer:before, #footer:after {
@@ -6942,11 +6942,11 @@ body.layout-boxed-lg #page .container {
 }
 #footer ul li, #footer ol li {
   padding: 6px 0px;
-  font-size: 12px;
+  font-size: .85em;
 }
 #footer ul li i, #footer ol li i {
   padding-right: 10px;
-  font-size: 18px;
+  font-size: 1.3em;
 }
 .rtl #footer ul li i, .rtl #footer ol li i {
   padding-left: 10px;
@@ -7167,7 +7167,7 @@ body.layout-boxed-lg #page .container {
   color: #9c9c9c !important;
   padding: 0;
   font-weight: 300;
-  font-size: 13px;
+  font-size: .9em;
   line-height: 25px;
 }
 #leo-megamenu .dropdown-menu li a:hover {
@@ -7179,7 +7179,7 @@ body.layout-boxed-lg #page .container {
 }
 #leo-megamenu .dropdown-menu .menu-title {
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 1em;
   text-transform: uppercase;
   color: #434a54;
 }
@@ -7299,7 +7299,7 @@ div.verticalmenu .navbar-nav > li {
 div.verticalmenu .navbar-nav > li > a {
   display: block;
   color: #434a54;
-  font-size: 14px;
+  font-size: 1em;
   padding: 16px 10px 15px 20px;
   border-bottom: 1px solid #e0e0e0;
 }
@@ -7321,7 +7321,7 @@ div.verticalmenu .navbar-nav > li .caret:before {
   content: "\f067";
   font-family: "FontAwesome";
   color: #aaa;
-  font-size: 10px;
+  font-size: .7em;
   font-weight: normal;
   left: 12px;
   top: 12px;
@@ -7391,7 +7391,7 @@ div.verticalmenu ul li a .menu-title {
   color: #535353;
 }
 div.verticalmenu ul li a .sub-title {
-  font-size: 12px;
+  font-size: .85em;
 }
 div.verticalmenu ul li a:hover, div.verticalmenu ul li a:focus {
   color: #2d84b1;
@@ -7426,13 +7426,13 @@ div.verticalmenu .dropdown-menu ul li {
 }
 div.verticalmenu .dropdown-menu ul li a {
   color: #434a54;
-  font-size: 13px;
+  font-size: .9em;
   font-weight: 400;
   padding: 0;
 }
 div.verticalmenu .dropdown-menu p {
   line-height: 18px;
-  font-size: 13px;
+  font-size: .9em;
 }
 div.verticalmenu .dropdown-menu .leo-menu-video {
   width: 100%;
@@ -7449,7 +7449,7 @@ div.verticalmenu .dropdown-menu .dropdown-toggle {
   line-height: normal;
   color: black;
   font-family: "Raleway", sans-serif;
-  font-size: 13px;
+  font-size: .9em;
 }
 div.verticalmenu .dropdown-menu .action {
   display: none;
@@ -7462,7 +7462,7 @@ div.verticalmenu .widget-heading {
 
 /*** widgets using inside megamenu ***/
 .leo-widget .widget-title {
-  font-size: 14px;
+  font-size: 1em;
   text-transform: uppercase;
 }
 .leo-widget .products-row {
@@ -7552,7 +7552,7 @@ div.verticalmenu .widget-heading {
   width: 234px;
 }
 #off-canvas-nav .dropdown-menu {
-  font-size: 13px;
+  font-size: .9em;
   position: relative;
   display: inline-block;
   left: 0;
@@ -7874,7 +7874,7 @@ input[type="file"] {
 }
 
 .icons-examples .fa {
-  font-size: 24px;
+  font-size: 1.7em;
   font-size: 2.4rem;
   line-height: 40px;
   width: 40px;
@@ -7899,17 +7899,17 @@ input[type="file"] {
   text-transform: uppercase;
 }
 .pricing-table .plan-currency {
-  font-size: 40px;
+  font-size: 2.85em;
   font-size: 4rem;
   font-weight: 700;
 }
 .pricing-table .plan-figure {
-  font-size: 72px;
+  font-size: 5.1em;
   font-size: 7.2rem;
   font-weight: 700;
 }
 .pricing-table .plan-period {
-  font-size: 12px;
+  font-size: .85em;
   font-size: 1.2rem;
 }
 .pricing-table .plan-title {
@@ -7943,7 +7943,7 @@ input[type="file"] {
 .pricing-table .plan-link {
   line-height: 2.5;
   border-radius: 0;
-  font-size: 12px;
+  font-size: .85em;
   font-size: 1.2rem;
 }
 .pricing-table.featured-plan {
@@ -8035,7 +8035,7 @@ input[type="file"] {
   display: none;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 12px;
+  font-size: .85em;
   letter-spacing: 0.3px;
 }
 .product-block .functional-buttons > div:nth-child(2) {
@@ -8148,7 +8148,7 @@ Button Layout and Color Scheme
   border: medium none;
   display: inline-block !important;
   float: none !important;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   height: 40px;
   line-height: 40px;
@@ -8178,7 +8178,7 @@ Button Layout and Color Scheme
   border: medium none;
   display: inline-block !important;
   float: none !important;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   height: 40px;
   line-height: 40px;
@@ -8208,7 +8208,7 @@ Button Layout and Color Scheme
   border: medium none;
   display: inline-block !important;
   float: none !important;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   height: 40px;
   line-height: 40px;
@@ -8237,7 +8237,7 @@ Button Layout and Color Scheme
   border: 1px solid #ffffff;
   display: inline-block !important;
   float: none !important;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   height: 40px;
   line-height: 40px;
@@ -8261,7 +8261,7 @@ Button Layout and Color Scheme
   border: 1px solid #222222;
   display: inline-block !important;
   float: none !important;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   height: 40px;
   line-height: 40px;
@@ -8286,7 +8286,7 @@ Button Layout and Color Scheme
   border: medium none;
   display: inline-block !important;
   float: none !important;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   height: 40px;
   line-height: 40px;
@@ -8316,7 +8316,7 @@ Button Layout and Color Scheme
   border: medium none;
   display: inline-block !important;
   float: none !important;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   height: 40px;
   line-height: 40px;
@@ -8345,7 +8345,7 @@ Button Layout and Color Scheme
   border: 1px solid #ffffff;
   display: inline-block !important;
   float: none !important;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   height: 40px;
   line-height: 40px;
@@ -8369,7 +8369,7 @@ Button Layout and Color Scheme
   border: 1px solid #222222;
   display: inline-block !important;
   float: none !important;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   height: 40px;
   line-height: 40px;
@@ -12363,7 +12363,7 @@ Content Transform
 }
 
 .ContentWrapperK .ContentK .Content ul li a {
-  font-size: 21px;
+  font-size: 1.5em;
   color: #a9a9a9;
 }
 
@@ -13473,7 +13473,7 @@ Transparent Background
   height: 30px;
   line-height: 30px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 1.4em;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -13611,7 +13611,7 @@ Transparent Background
   width: 28px;
   height: 28px;
   background: none;
-  font-size: 28px;
+  font-size: 2em;
   line-height: 28px;
   color: #858585;
   text-align: center;
@@ -13633,7 +13633,7 @@ Transparent Background
   width: 60px;
   height: 60px;
   margin: 3px 10px 0 0;
-  font-size: 30px;
+  font-size: 2.15em;
   color: #fff;
   line-height: 60px;
   text-align: center;
@@ -13652,7 +13652,7 @@ Transparent Background
     width: 30px;
     height: 30px;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 1.4em;
   }
 }
 #cmsinfo_block .type-text {
@@ -13689,7 +13689,7 @@ Transparent Background
   -o-border-radius: 0;
   border-radius: 0;
   margin: 0;
-  font-size: 13px;
+  font-size: 0.9em;
   color: #9c9c9c;
   float: none;
   height: inherit;
@@ -13785,7 +13785,7 @@ Transparent Background
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1.15em;
   margin-top: 0;
   color: #535353;
   padding: 13px 18px 13px;
@@ -13818,7 +13818,7 @@ Transparent Background
 }
 
 .box-services {
-  font-size: 13px;
+  font-size: 0.9em;
   width: 32%;
   float: left;
 }
@@ -13826,14 +13826,14 @@ Transparent Background
   float: right;
 }
 .box-services h4 {
-  font-size: 14px;
+  font-size: 1em;
   color: #434a54;
   font-weight: normal;
   margin-bottom: 3px;
   text-transform: uppercase;
 }
 .box-services .iconbox {
-  font-size: 28px;
+  font-size: 2em;
   padding: 10px 5px;
 }
 .box-services:hover {
@@ -13880,7 +13880,7 @@ Transparent Background
 .page-heading {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.3em;
   text-transform: uppercase;
   color: #535353;
   padding: 0px 0px 17px 0px;
@@ -13917,7 +13917,7 @@ Transparent Background
 .content_sortPagiBar {
   padding: 8px;
   background-color: whitesmoke;
-  font-size: 14px;
+  font-size: 1em;
   color: #434a54;
   border: 1px solid #eeeeee;
 }
@@ -14006,7 +14006,7 @@ Transparent Background
   color: white;
 }
 .content_sortPagiBar .display i {
-  font-size: 13px;
+  font-size: .9em;
   color: #9c9b9b;
   -webkit-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
@@ -14020,7 +14020,7 @@ ul.step {
 ul.step li {
   float: left;
   padding: 10px 15px;
-  font-size: 18px;
+  font-size: 1.3em;
   font-weight: normal;
   background: transparent;
   color: black;
@@ -14087,7 +14087,7 @@ div.star a:hover {
   margin: 0 0 10px;
   padding: 10px;
   border: 1px solid #e6db55;
-  font-size: 13px;
+  font-size: 0.9em;
   background: none repeat scroll 0 0 lightyellow;
 }
 
@@ -14109,7 +14109,7 @@ div.star a:hover {
 .listcomment .titlecomment {
   display: block;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.85em;
   color: #858585;
 }
 
@@ -14132,7 +14132,7 @@ div.star a:hover {
   position: absolute;
   margin: 0 auto;
   color: #2e3a47;
-  font-size: 15px;
+  font-size: 1.1em;
 }
 .breadcrumb a {
   color: #2e3a47;
@@ -14217,7 +14217,7 @@ div.star a:hover {
 
 .cart_delete a.cart_quantity_delete,
 a.price_discount_delete {
-  font-size: 23px;
+  font-size: 1.65em;
   color: #858585;
 }
 .cart_delete a.cart_quantity_delete:hover,
@@ -14454,7 +14454,7 @@ table#cart_summary .gift-icon {
 }
 #order .delivery_option > div > table.resume.delivery_option_carrier td i,
 #order-opc .delivery_option > div > table.resume.delivery_option_carrier td i {
-  font-size: 20px;
+  font-size: 1.4em;
   margin-right: 7px;
   vertical-align: -2px;
 }
@@ -14583,7 +14583,7 @@ p.payment_module a {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  font-size: 17px;
+  font-size: 1.2em;
   line-height: 23px;
   color: #858585;
   font-weight: normal;
@@ -14620,7 +14620,7 @@ p.payment_module a.cheque:after, p.payment_module a.bankwire:after, p.payment_mo
   margin-top: -11px;
   top: 50%;
   font-family: "FontAwesome";
-  font-size: 25px;
+  font-size: 1.8em;
   height: 22px;
   width: 14px;
   color: #858585;
@@ -14782,7 +14782,7 @@ sup {
 }
 
 #instant_search_results a.close {
-  font-size: 13px;
+  font-size: 0.9em;
   font-weight: 600;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -14796,12 +14796,12 @@ sup {
   table-layout: fixed;
 }
 #product_comparison a.lnk_view {
-  font-size: 14px;
+  font-size: 1em;
 }
 
 #manufacturers_list h3,
 #suppliers_list h3 {
-  font-size: 17px;
+  font-size: 1.2em;
   line-height: 23px;
 }
 #manufacturers_list .description,
@@ -14954,7 +14954,7 @@ sup {
 }
 
 table.discount i {
-  font-size: 20px;
+  font-size: 1.4em;
   line-height: 20px;
   vertical-align: -2px;
 }
@@ -15017,7 +15017,7 @@ table.discount i {
 #pagenotfound .pagenotfound h3 {
   font-weight: bold;
   color: #858585;
-  font-size: 13px;
+  font-size: 0.9em;
   line-height: normal;
   margin-bottom: 18px;
 }
@@ -15048,7 +15048,7 @@ table.discount i {
   padding: 48px 0 20px 0;
 }
 #pagenotfound .pagenotfound .buttons .button-medium i.left {
-  font-size: 17px;
+  font-size: 1.2em;
 }
 
 #account-creation_form fieldset.reversoform {
@@ -15067,7 +15067,7 @@ table.discount i {
 
 #account-creation_form fieldset.reversoform .infos-sup {
   padding: 0 !important;
-  font-size: 10px;
+  font-size: 0.7em;
   font-style: italic;
   text-align: right;
 }
@@ -15087,7 +15087,7 @@ form#sendComment fieldset {
 }
 
 form#sendComment h3 {
-  font-size: 14px;
+  font-size: 1em;
 }
 
 #new_comment_form p.text {
@@ -15100,7 +15100,7 @@ form#sendComment h3 {
   display: block;
   margin: 12px 0 4px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.85em;
 }
 
 #sendComment p.text input {
@@ -15155,7 +15155,7 @@ form#sendComment h3 {
   width: 16px;
   overflow: hidden;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   line-height: 20px;
 }
@@ -15265,6 +15265,18 @@ div.star.star_hover:after {
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('../fonts/ProximaNova-Regular-webfont.eot');
+    src: url('../fonts/ProximaNova-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNova-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/ProximaNova-Regular-webfont.woff') format('woff'),
+         url('../fonts/ProximaNova-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/ProximaNova-Regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome-webfont.eot?v=4.4.0");
